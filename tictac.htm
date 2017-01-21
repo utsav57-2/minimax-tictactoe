@@ -1,0 +1,112 @@
+<html>
+<head>
+<Style>
+.container{
+  width=100%;
+
+}
+.heading{
+  text-align: center;
+  background-color:#BADA55 !important;
+
+  width:100%;
+}
+.headtext{
+  font-family:Lemonada,cursive;
+
+}
+.selector{
+  display:table;
+  padding: 10px;
+  margin: auto;
+}
+.button{
+  width: 30px;
+  background-color: #BADA55;
+}
+.result{
+  font-family:"Arima Madurai";
+   font-size: 20px;
+}
+.game{
+  width=100%;
+  margin:auto;
+}
+.button2{
+  vertical-align: middle;
+
+  width:10vw;
+  height:10vw;
+  background-color:#ADADF0;
+
+}
+.button2:hover{
+  border-style:solid;
+  border-color: rgba(0,63,71,.1);
+}
+.row1{
+padding:2px;
+
+}
+.rule{
+  font-family:fantasy;
+  color: #0A7122;
+}
+.button3{
+  background-color: #BADA55;
+}
+</Style>
+<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="a.js">
+</script>
+</head>
+<body>
+<div class="container">
+<div class="Jumbotron heading">
+<h1 class="headtext">Tic-Tac-Toe</h1>
+</div>
+<div class="well rule">
+  <p>Rules:</p>
+  <ul>
+    <li>O goes first.</li>
+    <li>select X or O from below to start.</li>
+  </ul>
+</div>
+<p align="center" id="status-text">Select</p>
+<div class="text-center">
+<div class="selector"><button class="button" id="x">X</button><button class="button" id="o">O</button></div>
+</div>
+<div class="game text-center">
+<div class="row1">
+<button class="button2" id="gb1">-</button>
+<button class="button2" id="gb2">-</button>
+<button class="button2" id="gb3">-</button><br>
+</div>
+<div class="row1">
+<button class="button2" id="gb4">-</button>
+<button class="button2" id="gb5">-</button>
+<button class="button2" id="gb6">-</button><br>
+</div>
+<div class="row1">
+<button class="button2" id="gb7">-</button>
+<button class="button2" id="gb8">-</button>
+<button class="button2" id="gb9">-</button><br>
+</div>
+</div>
+<div class="text-center">
+<div class="selector" id="reset"><button class="button3" id="reset">RESET</button></div>
+</div>
+<div>
+<p class="result">>Result</p>
+</div>
+</div>
+</body>
+
+</html>
